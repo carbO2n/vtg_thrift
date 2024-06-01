@@ -177,3 +177,28 @@ html{
    }
 
 }
+
+.edit-button,
+.delete-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Green for edit button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button {
+    background-color: #f44336; /* Red for delete button */
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #45a049; /* Darker Green for edit button */
+}
+
+.delete-button:hover {
+    background-color: #f44336; /* Darker Red for delete button */
+}
