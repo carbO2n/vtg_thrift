@@ -66,8 +66,8 @@ if (!$order_query) {
             ?>
             <div class="order-item">
                 <p><strong>Order ID:</strong> <?= $order['id']; ?></p>
-                <p><strong>Order:</strong> $<?= $order['total_products']; ?></p>
-                <p><strong>Total Price:</strong> $<?= $order['total_price']; ?></p>
+                <p><strong>Order:</strong> <?= $order['total_products']; ?></p>
+                <p><strong>Total Price:</strong> Php<?= $order['total_price']; ?></p>
                 <p><strong>Status:</strong> 
                     <?php 
                         if ($order['order_status'] == 0) {
